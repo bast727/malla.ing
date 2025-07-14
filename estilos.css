@@ -1,1 +1,40 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffe6f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #d63384;
+}
+
+#malla-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.ramo {
+  background-color: #ffb3d9;
+  border: 2px solid #d63384;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.ramo:hover {
+  background-color: #ff99cc;
+}
+
+.ramo.aprobado {
+  background-color: #c3fbd8;
+  border-color: #1db954;
+  color: #000;
+  font-weight: bold;
+}
 
